@@ -16,7 +16,7 @@ export function Logo() {
           strokeLinejoin="round"
         />
       </svg>
-      <span className="text-lg font-bold text-foreground">СмартФлоу</span>
+      <span className="text-lg font-bold text-foreground">TeamHub</span>
     </div>
   )
 }

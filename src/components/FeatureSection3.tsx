@@ -1,21 +1,21 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { PenLine, ListTodo, Workflow } from "lucide-react"
+import { UserPlus, ShieldCheck, Users } from "lucide-react"
 
 const steps = [
   {
-    icon: PenLine,
-    title: "Регистрация",
-    description: "Создайте аккаунт за 2 минуты без лишних сложностей.",
+    icon: UserPlus,
+    title: "Зарегистрируйтесь",
+    description: "Создайте аккаунт за пару минут — просто укажите имя и email.",
   },
   {
-    icon: ListTodo,
-    title: "Настройте процессы",
-    description: "Настройте задачи, доски и автоматизации под вашу команду.",
+    icon: ShieldCheck,
+    title: "Получите роль",
+    description: "Администратор назначит вам роль: участник, модератор или администратор.",
   },
   {
-    icon: Workflow,
-    title: "Начните работать",
-    description: "Работайте эффективнее с командой и наблюдайте рост продуктивности.",
+    icon: Users,
+    title: "Присоединитесь к команде",
+    description: "Войдите в свою команду и начните работать с нужными правами доступа.",
   },
 ]
 
@@ -27,7 +27,7 @@ export function FeatureSection3() {
           <div className="flex flex-col gap-4 md:gap-5">
             <p className="text-sm md:text-base font-semibold text-muted-foreground">Как начать</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">Начать работу просто!</h2>
-            <p className="text-base text-muted-foreground">Всего 3 простых шага до результата:</p>
+            <p className="text-base text-muted-foreground">Всего 3 шага — и вы уже в команде:</p>
           </div>
           <div className="flex flex-col gap-6">
             {steps.map((step, index) => {

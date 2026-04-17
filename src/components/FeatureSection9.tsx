@@ -1,25 +1,25 @@
-import { Rotate3d, ArrowLeftRight, Database, Combine } from "lucide-react"
+import { ShieldAlert, UserCog, Lock, BarChart2 } from "lucide-react"
 
 const features = [
   {
-    icon: Rotate3d,
-    title: "Автоматизация процессов",
-    description: "Избавьтесь от рутинных задач и экономьте время с настраиваемой автоматизацией.",
+    icon: ShieldAlert,
+    title: "Роли и права доступа",
+    description: "Три уровня: участник, модератор, администратор — каждый видит только то, что нужно.",
   },
   {
-    icon: ArrowLeftRight,
-    title: "Совместная работа",
-    description: "Держите команду в курсе с общими досками и мгновенными обновлениями.",
+    icon: UserCog,
+    title: "Управление пользователями",
+    description: "Приглашайте, блокируйте и меняйте роли участников в несколько кликов.",
   },
   {
-    icon: Database,
-    title: "Аналитика и отчеты",
-    description: "Отслеживайте прогресс и измеряйте успех с продвинутой аналитикой.",
+    icon: Lock,
+    title: "Безопасность данных",
+    description: "Надёжная защита аккаунтов и контроль доступа на каждом уровне.",
   },
   {
-    icon: Combine,
-    title: "Простая интеграция",
-    description: "Подключайте любимые инструменты: Slack, Google Workspace, Trello и другие.",
+    icon: BarChart2,
+    title: "Прозрачность действий",
+    description: "История активности участников и полный контроль над командой.",
   },
 ]
 
@@ -29,9 +29,9 @@ export function FeatureSection9() {
       <div className="container mx-auto px-6 flex flex-col gap-12 md:gap-16">
         <div className="flex flex-col gap-4 md:gap-5 max-w-xl mx-auto text-center">
           <p className="text-sm md:text-base font-semibold text-muted-foreground">Возможности</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Почему выбирают СмартФлоу?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Почему выбирают TeamHub?</h2>
           <p className="text-base text-muted-foreground">
-            Измените подход вашей команды к работе с мощными инструментами:
+            Полный контроль над командами и ролями в одной платформе:
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
